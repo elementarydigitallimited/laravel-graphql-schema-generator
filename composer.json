@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": "^8.1.0|^8.2.0",
-        "always-open/sidekick": "^4.0",
+        "always-open/sidekick": "4.x-dev",
         "spatie/laravel-package-tools": "^1.9.2",
         "illuminate/contracts": "^9.0|^10.0|^11.0"
     },
@@ -32,6 +32,12 @@
         "phpstan/phpstan": "^1.0",
         "phpunit/phpunit": "^9.5"
     },
+    "repositories": [
+        {
+            "url": "https://github.com/elementarydigitallimited/sidekick.git",
+            "type": "git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "AlwaysOpen\\LaravelGraphqlSchemaGenerator\\": "src",
